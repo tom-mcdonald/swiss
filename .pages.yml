@@ -1,0 +1,16 @@
+collections:
+  posts:
+    output: true
+    extension: md
+
+fields:
+  posts:
+    - name: title
+      label: Title
+      type: text
+    - name: date
+      label: Date
+      type: datetime
+    - name: body
+      label: Content
+      type: markdown
